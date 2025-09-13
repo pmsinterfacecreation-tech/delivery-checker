@@ -1,51 +1,42 @@
-# delivery-checker
-📧 Email Spam Checker
+# 📧 Delivery / Email Spam Checker
 
-An open-source project for detecting spam emails using machine learning and rule-based classification.
+A web-based tool to evaluate email content for spam indicators using a simple delivery-checker interface.
 
-🚀 Features
+**Live Demo:** [Click Here](https://pmsinterfacecreation-tech.github.io/delivery-checker/)
 
-Spam vs. Non-spam detection
+---
 
-Fast, lightweight, and easy to deploy
+## 🚀 Features
 
-Customizable rules and filters
+- Evaluates email subject and body for spam likelihood  
+- Displays a visual gauge showing the spam score  
+- Lists matching spam trigger rules  
+- 100% client-side (no backend required)  
+- Lightweight and easy to deploy with GitHub Pages or any static host  
 
-Can be integrated into web or desktop applications
+---
 
-🛠️ Tech Stack
+## 🧱 Technologies Used
 
-Python (Flask/FastAPI/Django)
+- **HTML / CSS** – User Interface  
+- **JavaScript** – Spam rule checking and score calculation  
 
-Scikit-learn / NLTK (for spam detection)
+---
 
-HTML/CSS/JavaScript (optional frontend)
+## 💡 How It Works
 
-📦 Installation
-# Clone the repository
-git clone https://github.com/yourusername/email-spam-checker.git
+1. Enter your email subject and body into the input form  
+2. Click **Check Spam Score**  
+3. Instantly see a score and list of triggered spam rules  
 
-# Navigate to folder
-cd email-spam-checker
+---
 
-# Install dependencies
-pip install -r requirements.txt
+## 📂 Getting Started
 
-# Run the app
-python app.py
+```bash
+# Clone the repo
+git clone https://github.com/pmsinterfacecreation-tech/delivery-checker.git
+cd delivery-checker
 
-📂 Example Usage
-from spam_checker import check_email
-
-result = check_email("Congratulations, you won a prize!")
-print(result)  # Output: Spam
-
-🌍 Links
-
-🔗 Live Demo / Gumroad
-
-🔗 GitHub Repository
-
-📜 License
-
-MIT License – free to use and modify.
+# Open the app
+# Just open index.html in your browser
